@@ -16,7 +16,6 @@ public class Cliente extends PessoaFisica {
     }
 
     public String toString() {
-        return "{ \"cliente\": { " + super.toString() + ",\"score\": " + "\"" + getScoreCredito() + "\", "
-                + "\"success\": true, \"message\": \"Dados exibidos com sucesso!\"} }";
+        return "{ \"cliente\": { " + super.toString() + ",\"score\": " + "\"" + getScoreCredito() + "\"" + "}}";
     }
 }

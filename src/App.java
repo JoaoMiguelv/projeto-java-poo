@@ -57,6 +57,7 @@ public class App {
     }
 
     public static void info(PessoaFisica pf) {
-        System.out.println(pf.toString());
+        System.out.println("{\"data\": " + pf.toString() + ", "
+                + "\"success\": true, \"message\": \"Dados exibidos com sucesso!\"}");
     }
 }
